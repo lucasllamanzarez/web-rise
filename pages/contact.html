@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contactanos</title>
+        <link rel="shortcut icon" href="/Images/logorise-sf.png" type="image/x-icon">
+        <!-- <link rel="stylesheet" href="/css/stylerise.css"> -->
+    </head>
+<body>
+    <Header align="center"> <a href="/index.html"><img src="/Images/logorise-sf.png" width="144" ></a></Header>
+    <nav id="barranav" align="center" >
+        <ul style="list-style-type: none;">
+            <li> <a href="/index.html">Volver</a></li>
+            <li> <a href="/Pages/whoare.html">Quienes Somos</a></li>
+            <li> <a href="/Pages/solu.html">Soluciones</a></li>
+            <li> <a href="/Pages/clientes.html">Clientes</a></li>
+            <li> <a href="/Pages/novedades.html">Novedades</a></li>
+        </ul>
+</nav>
+    <br>
+        <div>
+            <form action="/Pages/mensaje.html" method="get">
+                <div align="center">
+                  <label for="name">Nombre y apellido</label>
+                  <input type="text" id="name" name="visit_name" placeholder="Escriba su nombre" pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div align="center">
+                  <label for="email">Correo electronico</label>
+                  <input type="email" id="email" name="visit_email" placeholder="sumail@email.com.ar" required>
+                </div>
+                <div align="center"> 
+                  <label for="phone">Telefono</label>
+                    <input type="text" id="phone" name="visit_phone" placeholder="cod area + telefono" required>
+                </div>
+                <div align="center">
+                  <label for="business">Motivo de contacto</label>
+                  <input type="text" id="business" name="visit_ business" placeholder="Empresa" pattern=[A-Za-z0-9\s]{4,20}>
+                </div>
+                <div align="center">
+                    <label for="province">Provincia</label>
+                    <select id="province" name="visitor_province" required>
+                        <option value="">Selecciona un provincia</option>
+                        <option value="bsas">Buenos Aires</option>
+                        <option value="cor">Cordoba</option>
+                        <option value="santa_fe">Santa Fe</option>
+                    </select>
+                  </div>
+                  <br>
+                  <div align="center"><label for="message">Contanos tu consulta</label> </div>
+                <div align="center">                            
+                     <textarea id="message" name="visitor_message" cols="25" rows="15" placeholder="Escribe tu mensaje aquí." required ></textarea>
+                </div>
+                <div align="center"><button type="submit">Enviar mensaje</button> <button type="reset">Limpiar</button></div>
+              </form>
+        </div>
+    <br>
+    <br>
+<div>
+    <footer align="center">
+        <table align="center">
+            <tr>
+               <td> <h5>Rise Technology</h5>
+                <p>©2022 Risetech | Todos los derechos reservados. <br> Pagina diseñada por Lucas Llamanzarez</p>
+            </td>
+                <td><p>Direccion: Bolivar 779, Ramos Mejia</p>
+                    <p>Telefono: 5861-5589</p>
+                    <p>Mail: Info@risetech.com.ar</p>
+                    <p>Contactanos tambien via <a href="https://web.whatsapp.com/" target="_blank">whatapps</a></p>
+                </td>
+            <td> 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.5709572902683!2d-58.56328027080631!3d-34.64753429549795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7e7062596cd%3A0x8a94dc475cfd0f4a!2sBol%C3%ADvar%20779%2C%20B1704BKO%20Ramos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1646856608192!5m2!1ses-419!2sar" width="240" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </td>
+            <td><p>Seguinos en nuestras redes sociales</p>
+                <a href="http://www.facebook.com" target="_blank">Facebook</a>
+                <a href="http://www.twitter.com" target="_blank">Twitter</a>
+                <a href="http://www.instagram.com" target="_blank">Instagram</a>
+             </td>
+            </tr>
+        </table>
+    </footer>
+</div>
+</body>
+</html>
