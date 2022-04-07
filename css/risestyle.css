@@ -6,7 +6,7 @@
 
 body {
     /*background-image: linear-gradient(to right top, #22467c, #0076b0, #00a5b1, #00ce7c, #a8eb12);*/
-    background: url(/images/627.jpg) no-repeat center center fixed;
+    background: url(web-rise/images/627.jpg) no-repeat center center fixed;
        -webkit-background-size: cover;
        -moz-background-size: cover;
        -o-background-size: cover;
