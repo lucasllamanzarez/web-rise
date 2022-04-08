@@ -106,7 +106,7 @@ body {
             border-radius: 15px;
 }  
 
-/* Acomoda contenido imagen-contenido*/
+/* Acomoda imagen-contenido*/
 .contenido2 {
     grid-area: contenido;
         padding: 25px;
@@ -143,6 +143,13 @@ div.reset {
         text-align: justify;
             justify-content: left;
                 padding-bottom: 25px;
+                    
+}
+
+.contenido3 {
+           
+            margin-left: 250px;
+            
 }
 
   
@@ -315,6 +322,12 @@ div.reset {
         text-align: justify;
             justify-content: left;
                 padding-bottom: 25px;
+}
+
+.contenido3 {
+           
+    margin-left: 250px;
+    
 }
 
 /* Boton flotante Wahatapps */
