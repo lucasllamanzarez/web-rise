@@ -13,8 +13,6 @@ body {
        background-size: cover;
 }
 
-/* Resolucion Desktop */
-@media only screen and (min-width:481px) {
 
 .contenedor {
         display: grid;
@@ -89,7 +87,7 @@ body {
                 text-align: justify;
             /* padding-bottom: 25px;
     margin-left: 80px;
-    margin-right: 80px; */
+    margin-right: 80px;*/
 }
 
 .contenido h2 {
@@ -153,7 +151,7 @@ div.reset {
 }
 
   
-/* Boton flotante Wahatapps  */
+/* Boton flotante Wahatapps*/
 .whatsapp {
     position:fixed;
         width:60px;
@@ -186,185 +184,187 @@ z-index:1;
     display: none;
 }
 
-/* cambia colores iconos redes */
+/* cambia colores iconos redes*/
 .inverter {
             filter: invert(100%);
 }
-}
+
 
 
 /*mobile*/
-@media only screen and (max-width:480px) {
+@media screen and (max-width:480px) {
     
-   .contenedor {
-               display: grid;
-               grid-template-areas:
-               "header header"
-               "navbar navbar "
-               "contenido contenido "
-               "footer footer ";
-           grid-template-rows: auto auto auto auto;
-       grid-template-columns: auto auto;
-   }
-
-   .header {
-    grid-area: header ;
-         text-align: center;
-}
-
-.header img {
-    align-items: center;
-        width: 188px;       
-}
-
-.navbar {
-    grid-area: navbar;
-        background-color: black;
-}
-
-.navbar ul {
-    display: flex;
-        list-style-type: none;
-            justify-content: center;
-    align-content: center;
-padding: 30px ;
-}
-
-.navbar li {
-    margin: 0 45px 0 0;
-}
-
-.navbar li a {
-    padding: 2px 7px 2px 7px;
-        color: #666;
-            background-color:   white;
-        border: 1px solid whitesmoke;
-    border-radius: 7px;
-text-decoration: none;
-}
-
-.navbar li a:hover {
-    background-color: #333333;
-        color: #ffffff;
-}
-
-.contenido {
-    grid-area: contenido;
-    padding: 25px;
-    text-align: center;
-}
-
-.contenido h1 {
-         display: flex;
-             justify-content:center;
-                 align-content:center;
-            padding-bottom: 20px;
-}
-
-.contenido p {
-        display: flex;
+    .contenedor {
+                display: grid;
+                grid-template-areas:
+                "header header"
+                "navbar navbar "
+                "contenido contenido "
+                "footer footer ";
+            grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto;
+    }
+ 
+    .header {
+     grid-area: header ;
+          text-align: center;
+ }
+ 
+ .header img {
+     align-items: center;
+         width: 188px;       
+ }
+ 
+ 
+ .navbar {
+     grid-area: navbar;
+         background-color: black;
+ }
+ 
+ .navbar ul {
+     display: flex;
+         list-style-type: none;
              justify-content: center;
-                align-content: center;
-            text-align: justify;
-        /* padding-bottom: 25px;
-margin-left: 80px;
-margin-right: 80px; */
-}
-
-.contenido h2 {
-        display: flex;
-            justify-content: center;
-                align-content: center;
-            padding: 25px;
-}
-
-
-.imagep {            
-                width: 60%;
-            border: solid black;
-        border-radius: 15px;
-}  
-
-/* Acomoda contenido imagen-contenido*/
-.contenido2 {
-    grid-area: contenido;
-        padding: 25px;
-            display: block;
-        margin: 25px;               
-}
-
-.izquierda {
-    float: left;
-    width: 35%;
-    margin-right: 20px;
-    
-}
-
-.derecha {
-    float: right;
-    width: 35%;
-    margin-left: 20px;
-    
-}
-
-div.reset {
-    clear: both;
+     align-content: center;
+ padding: 30px ;
+ }
+ 
+ .navbar li {
+     margin: 0 45px 0 0;
+ }
+ 
+ .navbar li a {
+     padding: 2px 7px 2px 7px;
+         color: #666;
+             background-color:   white;
+         border: 1px solid whitesmoke;
+     border-radius: 7px;
+ text-decoration: none;
+    display: block;
+ }
+ 
+ .navbar li a:hover {
+     background-color: #333333;
+         color: #ffffff;
+ }
+ 
+ .contenido {
+     grid-area: contenido;
+     padding: 25px;
+     text-align: center;
+ }
+ 
+ .contenido h1 {
+          display: flex;
+              justify-content:center;
+                  align-content:center;
+             padding-bottom: 20px;
+ }
+ 
+ .contenido p {
+         display: flex;
+              justify-content: center;
+                 align-content: center;
+             text-align: justify;
+         /* padding-bottom: 25px;
+ margin-left: 80px;
+ margin-right: 80px; */
+ }
+ 
+ .contenido h2 {
+         display: flex;
+             justify-content: center;
+                 align-content: center;
+             padding: 25px;
+ }
+ 
+ 
+ .imagep {            
+                 width: auto;
+             border: solid black;
+         border-radius: 15px;
+ }  
+ 
+ /* Acomoda contenido imagen-contenido*/
+ .contenido2 {
+     grid-area: contenido;
+         padding: 25px;
+             display: block;
+         margin: 25px;               
+ }
+ 
+ .izquierda {
+     float: left;
+     width: 35%;
+     margin-right: 20px;
+     
+ }
+ 
+ .derecha {
+     float: right;
+     width: 35%;
+     margin-left: 20px;
+     
+ }
+ 
+ div.reset {
+     clear: both;
+   }
+ 
+ .asided {
+         text-align: justify;
+     padding-top: 100px;
+         justify-content: right;
+     
+ }
+ 
+ .asidei {
+         text-align: justify;
+             justify-content: left;
+                 padding-bottom: 25px;
+ }
+ 
+ .contenido3 {
+            
+     margin-left: 250px;
+     
+ }
+ 
+ /* Boton flotante Wahatapps*/ 
+ .whatsapp {
+ position:fixed;
+     width:60px;
+         height:60px;
+             bottom:25px;
+                 right:25px;
+             background-color:#25d366;
+         color:#FFF;
+         border:#666 solid;
+     border-radius:50px;
+ text-align:center;
+ font-size:30px;
+ z-index:1;
+ }
+ 
+ .whatsapp-icon {
+     margin-top:13px;
+ }
+ 
+ .footer {
+     grid-area: footer;
+         display: flex;
+             justify-content: space-evenly;
+                     align-items: center;
+                 background-color: black;
+         padding: 25px;
+ }
+ 
+ .nover {
+     display: none;
+ }
+ 
+ /* cambia colores iconos redes*/
+ .inverter {
+         filter: invert(100%);
+ }
   }
-
-.asided {
-        text-align: justify;
-    padding-top: 100px;
-        justify-content: right;
-    
-}
-
-.asidei {
-        text-align: justify;
-            justify-content: left;
-                padding-bottom: 25px;
-}
-
-.contenido3 {
-           
-    margin-left: 250px;
-    
-}
-
-/* Boton flotante Wahatapps */
-.whatsapp {
-position:fixed;
-    width:60px;
-        height:60px;
-            bottom:25px;
-                right:25px;
-            background-color:#25d366;
-        color:#FFF;
-        border:#666 solid;
-    border-radius:50px;
-text-align:center;
-font-size:30px;
-z-index:1;
-}
-
-.whatsapp-icon {
-    margin-top:13px;
-}
-
-.footer {
-    grid-area: footer;
-        display: flex;
-            justify-content: space-evenly;
-                    align-items: center;
-                background-color: black;
-        padding: 25px;
-}
-
-.nover {
-    display: none;
-}
-
-/* cambia colores iconos redes */
-.inverter {
-        filter: invert(100%);
-}
-}
